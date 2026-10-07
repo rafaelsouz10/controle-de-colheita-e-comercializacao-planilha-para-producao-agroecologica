@@ -61,7 +61,7 @@ function montarGeral() {
   aba.getRange(2, 1, 1, 8).merge()
     // Sem nome preenchido, a linha virava "|  Núcleo  |  Grupo  |" e parecia quebrada.
     .setFormula('=IF(' + refConfig('nome') + '="",'
-      + '"Preencha a aba Configuração (nome, núcleo e grupo)",'
+      + '"Preencha a aba Configuração (nome, núcleo, grupo e rede)",'
       + refConfig('nome') + '&"   |   Núcleo "&' + refConfig('nucleo')
       + '&"   |   Grupo "&' + refConfig('grupo')
       + '&IF(' + refConfig('rede') + '="","","   |   "&' + refConfig('rede') + '))')

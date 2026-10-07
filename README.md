@@ -105,8 +105,8 @@ O repositório não aponta para nenhuma planilha: cada um monta a sua.
    ```
 
 5. Recarregue a planilha e use **Colheita > Manutenção > Nova planilha em branco**.
-6. Preencha a aba **Configuração** do modelo com o que deve vir pronto para os
-   produtores (a **Rede / associação** e o **ano**), deixando nome, núcleo e grupo vazios.
+6. Na aba **Configuração** do modelo, confira o **ano**. Deixe o resto vazio: nome,
+   núcleo, grupo e rede são de cada produtor, que preenche na própria cópia.
 
 ## Desenvolver
 
@@ -135,8 +135,8 @@ Uma planilha montada com **Colheita > Manutenção > Nova planilha em branco**, 
 `Dados.gs` no script, compartilhada como **"Qualquer pessoa com o link: Leitor"**. Leitor,
 nunca editor: ninguém altera o modelo por engano, e a cópia funciona do mesmo jeito.
 
-O campo **Rede / associação** da Configuração pode ficar preenchido no modelo, para que
-as cópias já nasçam com ele.
+A Configuração do modelo fica vazia, exceto o ano: nome, núcleo, grupo e **rede ou
+associação** são preenchidos por cada produtor na própria cópia.
 
 ### O link para o produtor
 
@@ -147,7 +147,8 @@ https://docs.google.com/spreadsheets/d/<ID-da-planilha-modelo>/copy
 ```
 
 O produtor abre, clica em **Fazer uma cópia** (o Google avisa que um script vai junto), e
-a planilha abre no Drive dele, com ele como dono. Depois: preencher a **Configuração**,
+a planilha abre no Drive dele, com ele como dono. Depois: preencher a **Configuração**
+(nome, núcleo, grupo e rede),
 cadastrar os destinos na aba **Produtos** e registrar. Para registrar não é preciso
 autorizar nada.
 
