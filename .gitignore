@@ -1,0 +1,15 @@
+# O repositorio e publico e leva so o MODELO. Nada que aponte para uma planilha
+# real ou identifique pessoas entra aqui.
+
+# Configuracao do clasp de quem desenvolve: tem o ID do script do SEU modelo.
+# No repositorio vai o .clasp.json.example, vazio.
+.clasp.json
+
+# Caderno real transcrito (registros, nomes, compradores), se algum dia vier
+# parar nesta pasta. O .claspignore tambem o barra de subir para o Apps Script.
+Dados*.gs
+
+# Diversos
+.DS_Store
+Thumbs.db
+desktop.ini

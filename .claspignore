@@ -1,0 +1,11 @@
+# Arquivos que o clasp NUNCA envia ao Apps Script.
+#
+# Dados.gs e um caderno real transcrito (registros, nome, compradores). O clasp
+# aponta para o MODELO, e o script do modelo vai junto para a conta de cada produtor
+# que copiar pelo link /copy: com o Dados.gs la, qualquer produtor leria esses dados
+# no editor da propria copia. Para testar com um caderno real, usar a planilha de
+# bancada, nunca o modelo.
+Dados.gs
+
+**/.git/**
+**/node_modules/**
